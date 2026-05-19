@@ -12,8 +12,8 @@ data class WeatherInfo(
 
 // Data untuk list per jam / per hari di baris bawah UI
 data class WeatherForecast(
-    val time: String, // Jam atau Tanggal
+    val time: String,
     val temperature: Double,
     val condition: String,
-    val iconCode: String // Nanti dipake buat milih icon (Cerah, Hujan, Petir)
+    val iconCode: String
 )
